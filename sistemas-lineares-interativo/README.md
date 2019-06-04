@@ -25,7 +25,7 @@ git clone https://github.com/kammradt/sistemas-lineares.py
 ```
 2. Enter the directory you just copied: (This is not the file yet, just a folder)
 ```
-cd sistemas-lineares.py
+cd sistemas-lineares-interativo
 ```
 3. Run the app
 ```
