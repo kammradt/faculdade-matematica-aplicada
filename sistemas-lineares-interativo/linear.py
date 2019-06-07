@@ -14,11 +14,11 @@ import numpy as np
 
 # O programa recebe do usuario a quantida de equacoes que ele deseja inserir (Serao transformadas em uma matriz depois).
 # Nesse caso, temos 3 linhas, entao qtd_linhas = 3
-qtd_linhas    = int(raw_input('Digite a quantidade de linhas do sistema linear desejado: '))
+qtd_linhas    = int(input('Digite a quantidade de linhas do sistema linear desejado: '))
 
 # Nesse caso, temos tambem 3 incognitas, entao qtd_variaveis = 3
 # O programa recebe a quantidade de incognitas que existira em cada uma das linhas.
-qtd_variaveis = int(raw_input('Digite a quantidade de variaveis (incognitas): '))
+qtd_variaveis = int(input('Digite a quantidade de variaveis (incognitas): '))
 print('\n')
 
 
@@ -35,10 +35,10 @@ for numero_linha, linha in enumerate(range(qtd_linhas)):
     # Ou seja, linha_construida ao fim do range() de 3 (que e qtd_linhas), sera: linha_construida = [1, -2, -2]
     linha_construida = []
     for numero_variavel,variavel in enumerate(range(qtd_variaveis)):
-        entrada = int(raw_input('Digita a variavel '+str(numero_variavel+1)+' da linha: ' + str(numero_linha+1)+': '))
+        entrada = int(input('Digita a variavel '+str(numero_variavel+1)+' da linha: ' + str(numero_linha+1)+': '))
         linha_construida.append(entrada)
          # Recebemos o valor de x, y, z para uma determinada linha, e entao colocamos dentro de linha_construida
-    resposta = int(raw_input('Digita a resposta da linha: ' + str(numero_linha+1)+': '))
+    resposta = int(input('Digita a resposta da linha: ' + str(numero_linha+1)+': '))
     # Aqui recebemos o valor para a coluna da direita. Por exemplo, para a primeira linha [1, -2, -2], reposta sera = -1
     print('\n')
     respostas.append(resposta)
