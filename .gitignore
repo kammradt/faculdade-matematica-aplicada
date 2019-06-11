@@ -3,6 +3,8 @@
 
 .idea/
 venv_mat/
+XDG_CACHE_HOME/
+.vscode/
 
 # User-specific stuff
 .idea/**/workspace.xml
