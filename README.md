@@ -2,3 +2,4 @@
 
 - [/](https://github.com/kammradt/faculdade-matematica-aplicada)
 - [Resolver sistemas lineares interativamente](https://github.com/kammradt/faculdade-matematica-aplicada/tree/master/sistemas-lineares-interativo)
+- [Calcular aproximação linear de vetores](https://github.com/kammradt/faculdade-matematica-aplicada/tree/master/aproximacao-linear)
